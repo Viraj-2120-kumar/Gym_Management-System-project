@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>FitTrack - Goal Selection</title>
+    <link rel="stylesheet" href="goal-selection.css">
+</head>
+<body>
+    <div class="goal-container">
+        <h2>Select Your Fitness Goal</h2>
+        <div class="goal-options">
+            <button data-goal="muscle-gain">Muscle Gain</button>
+            <button data-goal="weight-loss">Weight Loss</button>
+        </div>
+
+        <div class="fitness-level">
+            <h3>Select Your Fitness Level</h3>
+            <select id="fitnessLevel">
+                <option value="beginner">Beginner</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="advanced">Advanced</option>
+            </select>
+        </div>
+
+        <button id="generatePlan">Generate My Plan</button>
+    </div>
+    <script src="goal.js"></script>
+</body>
+</html>

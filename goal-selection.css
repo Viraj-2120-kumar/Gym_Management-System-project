@@ -1,0 +1,56 @@
+.goal-container {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    padding: 40px;
+    width: 450px;
+    text-align: center;
+}
+
+.goal-options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.goal-options button {
+    flex: 1;
+    margin: 0 10px;
+    padding: 15px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.goal-options button.active,
+.goal-options button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.fitness-level select {
+    width: 100%;
+    padding: 12px;
+    margin: 15px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#generatePlan {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Add this to your styles.css file */
+.goal-options button.selected {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: 2px solid #45a049; /* Darker green border */
+}
